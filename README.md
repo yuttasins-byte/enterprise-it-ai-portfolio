@@ -1,4 +1,3 @@
-# enterprise-it-ai-portfolio
 # Enterprise IT, Infrastructure, Security & AI Portfolio
 
 Building secure, resilient, and practical enterprise technology platforms.
@@ -56,6 +55,8 @@ Key capabilities:
 - Auditable server-to-server integrations
 
 **Technologies:** Python, FastAPI, PostgreSQL, Redis, Docker, RAG, MCP, REST APIs
+
+➡️ **[Read the Internal AI Platform case study](projects/internal-ai-platform.md)**
 
 ---
 
