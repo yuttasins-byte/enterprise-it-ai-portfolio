@@ -24,6 +24,7 @@ I focus on turning business and operational requirements into maintainable techn
 - Monitoring, Observability & Automation
 - API & Enterprise Application Integration
 - Internal AI, RAG & Model Context Protocol (MCP)
+- Internal Form Builder, Workflow & Process Digitization
 - IT Governance, Procurement Workflow & Project Delivery
 - Cloud Fundamentals, Hybrid Cloud & Cost-Aware Architecture
 
@@ -77,6 +78,30 @@ Selected capabilities:
 **Technologies:** Python, FastAPI, PostgreSQL, Docker, REST APIs, OIDC
 
 ➡️ **[Read the IT Services Platform case study](projects/it-services-platform.md)**
+
+---
+
+## 📝 Internal Form Builder & Workflow Digitization
+
+Reusable internal form capability designed to convert manual or document-driven business processes into governed digital workflows without requiring a separate application for every request type.
+
+Key capabilities:
+
+- Configurable internal forms and structured data capture
+- Reusable workflow and approval patterns
+- Role-aware process handling
+- Attachment and supporting-document handling
+- Status tracking and operational traceability
+- Integration with internal services and downstream processes
+- Foundation for progressively digitizing additional business workflows
+
+**Architecture concept**
+
+`User → Dynamic Form → Validation → Workflow / Approval → Structured Data → Integration / Reporting`
+
+The value of the platform is reuse: new internal processes can be digitized on a common foundation instead of repeatedly building isolated forms, approval logic, and data handling from scratch.
+
+**Technologies:** Python, FastAPI, PostgreSQL, REST APIs, workflow automation, RBAC
 
 ---
 
