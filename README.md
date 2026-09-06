@@ -29,7 +29,7 @@ I focus on turning business and operational requirements into maintainable techn
 
 ---
 
-# 🚀 Selected Projects
+# 🚀 Professional Projects & Architecture
 
 ## 🤖 Internal AI Platform
 
@@ -143,15 +143,7 @@ Highlights:
 
 Operational automation and monitoring across infrastructure and internal services.
 
-Examples include:
-
-- Approval workflow automation
-- Automated notifications
-- System-to-system integrations
-- Monitoring and alerting
-- Infrastructure telemetry and dashboards
-- Low-code and event-driven automation
-- IoT data workflows
+Examples include approval workflow automation, automated notifications, system-to-system integrations, monitoring and alerting, infrastructure telemetry and dashboards, low-code/event-driven automation, and IoT data workflows.
 
 **Technologies:** Zabbix, Grafana, n8n, Node-RED, REST APIs, Python, PostgreSQL
 
@@ -159,32 +151,22 @@ Examples include:
 
 ## 🏢 Infrastructure & Security
 
-Enterprise infrastructure and security experience spanning:
-
-- VMware virtualization and vCenter
-- SAN storage
-- Windows Server and Active Directory
-- Microsoft Exchange and Microsoft 365
-- Backup, restore and disaster recovery
-- VLANs, routing, segmentation and firewall policy
-- Endpoint security and security monitoring
-- Business continuity and recovery planning
-- Hybrid-cloud architecture evaluation
+Enterprise infrastructure and security experience spanning VMware virtualization and vCenter, SAN storage, Windows Server and Active Directory, Microsoft Exchange and Microsoft 365, backup/restore and disaster recovery, VLANs/routing/segmentation/firewall policy, endpoint security, security monitoring, business continuity, and hybrid-cloud architecture evaluation.
 
 ---
 
-# ☁️ Cloud & Continuous Learning
+# 🎓 Professional Learning & Credentials
 
-Cloud learning is treated as an extension of infrastructure architecture rather than a goal to move every workload to the cloud.
+Continuous learning supports the same architecture areas represented in this portfolio rather than existing as a separate badge-collection exercise.
 
-Current focus areas include:
+Current credential tracks:
 
-- AWS architecture, networking, security, governance, migration and cost management
-- Microsoft Azure architecture, compute, networking, storage, identity and security
-- Hybrid-cloud decision making based on workload fit, operational risk and total cost of ownership (TCO)
-- Hands-on lab development and architecture comparison across AWS and Azure
+- **Cloud & Infrastructure** — AWS Cloud Practitioner learning and CLF-C02 official practice preparation
+- **Microsoft, Identity & Security** — Azure architecture, networking, identity/access/security, and Microsoft 365
+- **AI & Digital Transformation** — AI-era leadership, prompt engineering, and practical internal AI development
+- **Leadership & Management** — supervisory skills, performance management, mentoring, communication, analytical thinking, planning, and project delivery
 
-➡️ **[View professional learning & training](learning/README.md)**
+➡️ **[View Professional Learning & Credentials](learning/README.md)**
 
 ---
 
@@ -214,14 +196,7 @@ Automation and AI should reduce friction, improve decision quality, and support 
 
 This repository will continue to evolve with sanitized architecture diagrams, technical case studies, screenshots, cloud labs, engineering decisions, and selected training evidence.
 
-Planned additions include:
-
-- Hybrid cloud architecture labs
-- AWS and Azure architecture comparisons
-- Security and identity reference architectures
-- Monitoring and observability case studies
-- Backup/DR and business continuity examples
-- Additional workflow and internal-platform case studies
+Planned additions include hybrid cloud architecture labs, AWS/Azure architecture comparisons, security and identity reference architectures, monitoring and observability case studies, backup/DR and business continuity examples, and additional workflow/internal-platform case studies.
 
 > **Confidentiality note**  
 > All examples in this portfolio are intentionally sanitized. No confidential company information, credentials, internal addresses, production configuration, personal data, or proprietary source code are published.
