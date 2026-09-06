@@ -31,7 +31,7 @@ I focus on turning business and operational requirements into maintainable techn
 
 # 🚀 Selected Projects
 
-## 🤖 Sally Internal AI
+## 🤖 Internal AI Platform
 
 Internal AI assistant designed to connect organizational knowledge with approved structured internal systems while keeping identity, authorization, source ownership, and operational facts explicit.
 
@@ -53,7 +53,7 @@ Key capabilities:
 
 **Technologies:** Python, FastAPI, PostgreSQL, Redis, Docker, RAG, MCP, REST APIs, OIDC
 
-➡️ **[Read the Sally Internal AI case study](projects/internal-ai-platform.md)**
+➡️ **[Read the Internal AI Platform case study](projects/internal-ai-platform.md)**
 
 ---
 
