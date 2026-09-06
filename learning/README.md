@@ -1,61 +1,68 @@
-# Professional Learning & Continuous Development
+# Professional Learning & Credentials
 
-> Continuous learning focused on practical infrastructure, security, cloud, automation, and AI architecture.
+> Continuous development focused on practical infrastructure, security, cloud, automation, AI, and technology leadership.
 
-## Current Learning Strategy
-
-My learning approach uses two passes:
+My learning strategy uses two passes:
 
 1. **Foundation pass** — understand the service landscape, terminology, architectural concepts, and decision criteria.
 2. **Hands-on pass** — build labs, compare architectures, test security controls, monitor workloads, and evaluate cost and operational trade-offs.
 
-The objective is not to collect service names or badges. It is to improve architecture and operational decision making.
+The objective is not to collect badges. It is to improve architecture, operations, security, and technology decision making.
 
-## AWS
+---
 
-### AWS Cloud Practitioner Essentials
+## Featured Credentials
 
-**Status:** Completed — September 2026  
-**Provider:** AWS Training and Certification
+### ☁️ Cloud & Infrastructure
 
-Topics covered include:
+**AWS Cloud Practitioner Essentials**  
+AWS Training & Certification · Completed September 2026
 
-- AWS global infrastructure
-- EC2 and compute concepts
-- VPC and networking
-- storage and databases
-- IAM and security
-- monitoring and governance
-- migration strategies and services
-- billing, pricing and cost management
-- AWS Well-Architected concepts
+**Official Practice Question Set: AWS Certified Cloud Practitioner (CLF-C02 – English)**  
+AWS Training & Certification · Completed September 2026
 
-### AWS Certified Cloud Practitioner Preparation
+Current AWS development areas include global infrastructure, compute, VPC networking, storage, databases, IAM, security, migration, governance, billing, pricing, cost management, and Well-Architected concepts.
 
-Current preparation includes official practice assessment and targeted review of knowledge gaps, with particular focus on:
+### 🔐 Microsoft, Identity & Security
 
-- cloud economics and migration concepts
-- IAM and access management
-- AWS database service selection
-- billing and cost-management services
-- AWS Support options
+Microsoft Learn achievements include:
 
-## Microsoft Azure & Microsoft Learn
+- Describe Azure identity, access, and security
+- Describe Azure networking services
+- Describe the core architectural components of Azure
+- Provision and brand a Microsoft 365 tenant
 
-Current learning areas include:
+These learning achievements support practical work across Microsoft 365, hybrid infrastructure, identity, access control, networking, and Zero Trust architecture.
 
-- Azure architecture and resource hierarchy
-- Azure compute services
-- Azure networking
-- Azure storage
-- Microsoft Entra identity concepts
-- Conditional Access
-- Zero Trust
-- Azure RBAC
-- Azure Key Vault
-- Microsoft 365 administration concepts
+### 🤖 AI & Digital Transformation
 
-Microsoft Learn achievements and completion evidence are maintained separately from professional certifications.
+**AI-Era Leadership: Building Trust in the Organization**  
+National Digital Economy and Society Commission / Thailand AI learning program · September 2026
+
+**Basic Prompt Engineering Techniques**  
+National Digital Economy and Society Commission / Thailand AI learning program · September 2026
+
+These complement hands-on development of internal AI platforms, RAG, MCP, workflow automation, API integration, and responsible enterprise AI adoption.
+
+### 🧭 Leadership, Management & Delivery
+
+Selected completed development programs include:
+
+- Professional Supervisory Skills
+- Performance Management for Managers
+- Driving Collaborative Results with Trust
+- Future-Ready Employee
+- Data-Driven Organization
+- A Successful Mentor
+- Effective and Cross Functional Communication
+- Team Performance Communication
+- Planning, Organizing and Prioritization
+- Analytical Thinking & Problem Solving — Rational & Fact-Based Decisions
+- Project Planning
+
+Together these represent continued development beyond technical implementation into people leadership, communication, analytical decision making, project delivery, mentoring, and organizational performance.
+
+---
 
 ## Architecture Mapping
 
@@ -77,14 +84,14 @@ These mappings are learning aids only; architecture and feature sets are evaluat
 ## Planned Hands-on Labs
 
 - VPC/VNet segmentation and routing
-- public/private workload patterns
+- Public/private workload patterns
 - IAM/RBAC and least-privilege access
-- secure application secrets
-- monitoring, logs and alerting
-- multi-zone availability patterns
-- hybrid connectivity design
-- backup and disaster recovery
-- cost estimation and rightsizing
+- Secure application secrets
+- Monitoring, logs and alerting
+- Multi-zone availability patterns
+- Hybrid connectivity design
+- Backup and disaster recovery
+- Cost estimation and rightsizing
 - Well-Architected reviews
 
 ## Professional Principle
@@ -94,5 +101,7 @@ These mappings are learning aids only; architecture and feature sets are evaluat
 The preferred architecture may be cloud, on-premises, SaaS, or hybrid depending on business requirements, security, resilience, operational capability, and total cost of ownership.
 
 ---
+
+> **Credential evidence:** Public portfolio copies are intentionally limited to professional learning evidence that is safe to disclose. Internal company training records, confidential material, employee identifiers, and operational information are excluded.
 
 [Back to Portfolio](../README.md)
