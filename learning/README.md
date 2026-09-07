@@ -17,6 +17,7 @@ For convenient portfolio review, selected training and certificate evidence is a
 
 - **[Certifications & Training Portfolio 2026](Yuttasin_Srisangchan_Certifications_Training_Portfolio_2026.pdf)** — consolidated professional learning and certificate evidence.
 - **[AWS Training & Certification — September 2026](AWS%20Training%20and%20Certification%20%20September%202026.pdf)** — AWS learning evidence and training record.
+- **[WatchGuard Certified System Professional — Fireware XTM v11.7 Basics](WatchGuard_Certified_System_Professional_Fireware_XTM_v11.7_Yuttasin_Srisangchan_2013.pdf)** — Certification Exam Passed · September 2013.
 - **[Claude 101 — Course Completion Badge](../Claude_101_Course_Completion_Yuttasin_Srisangchan.pdf)** — Claude Academy · Completed September 2026.
 - **[ChatGPT Productivity Hacks: 10x Your Workflow with AI Assistance](../ChatGPT_Productivity_Hacks_Certificate_Yuttasin_Srisangchan.png)** — Aj.NesT & Conicle · Certificate of Achievement.
 - **[Network Security / CompTIA Security+ Exam Preparation](../Udemy_Network_Security_CompTIA_SecurityPlus_Course_Completion_Yuttasin_Srisangchan.pdf)** — Udemy · 30-hour Course Completion · March 2023.
@@ -39,7 +40,7 @@ Current AWS development areas include global infrastructure, compute, VPC networ
 
 ### 🌐 Network & Security
 
-**WatchGuard Certified System Professional — Fireware XTM v11.7 Basics**  
+**[WatchGuard Certified System Professional — Fireware XTM v11.7 Basics](WatchGuard_Certified_System_Professional_Fireware_XTM_v11.7_Yuttasin_Srisangchan_2013.pdf)**  
 WatchGuard · Certification Exam Passed · September 2013
 
 **CCNA Routing and Switching v.3 — CCNA 200-125 Exam Preparation**  
