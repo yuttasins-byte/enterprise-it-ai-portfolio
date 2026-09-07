@@ -18,6 +18,7 @@ For convenient portfolio review, selected training and certificate evidence is a
 - **[Certifications & Training Portfolio 2026](Yuttasin_Srisangchan_Certifications_Training_Portfolio_2026.pdf)** — consolidated professional learning and certificate evidence.
 - **[AWS Training & Certification — September 2026](AWS%20Training%20and%20Certification%20%20September%202026.pdf)** — AWS learning evidence and training record.
 - **[Claude 101 — Course Completion Badge](../Claude_101_Course_Completion_Yuttasin_Srisangchan.pdf)** — Claude Academy · Completed September 2026.
+- **[ChatGPT Productivity Hacks: 10x Your Workflow with AI Assistance](../ChatGPT_Productivity_Hacks_Certificate_Yuttasin_Srisangchan.png)** — Aj.NesT & Conicle · Certificate of Achievement.
 
 These documents are supporting evidence for the learning areas summarized below; they are not presented as substitutes for professional certification exams unless explicitly stated.
 
@@ -50,6 +51,9 @@ These learning achievements support practical work across Microsoft 365, hybrid 
 
 **Claude 101 — Course Completion Badge**  
 Claude Academy · Completed September 2026
+
+**ChatGPT Productivity Hacks: 10x Your Workflow with AI Assistance**  
+Aj.NesT & Conicle · Certificate of Achievement
 
 **AI-Era Leadership: Building Trust in the Organization**  
 National Digital Economy and Society Commission / Thailand AI learning program · September 2026
