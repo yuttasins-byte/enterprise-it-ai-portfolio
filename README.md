@@ -24,7 +24,7 @@ I focus on turning business and operational requirements into maintainable techn
 - Monitoring, Observability & Automation
 - API & Enterprise Application Integration
 - Internal AI, RAG & Model Context Protocol (MCP)
-- Internal Form Builder, Workflow & Process Digitization
+- Internal Form Builder, Surveys, Quizzes & Secure Data Collection
 - IT Governance, Procurement Workflow & Project Delivery
 - Cloud Fundamentals, Hybrid Cloud & Cost-Aware Architecture
 
@@ -81,27 +81,37 @@ Selected capabilities:
 
 ---
 
-## 📝 Internal Form Builder & Workflow Digitization
+## 📝 Internal Form Builder — Forms, Surveys & Quizzes
 
-Reusable internal form capability designed to convert manual or document-driven business processes into governed digital workflows without requiring a separate application for every request type.
+Organization-owned internal form platform designed as a secure alternative to external form services such as Google Forms for creating forms, surveys, questionnaires, quizzes, and structured data collection.
+
+The platform keeps organizational data inside the internal environment while enforcing authentication, authorization, and controlled access. Form data is not designed for public sharing outside the organization, helping reduce the risk of sensitive business information being exposed through external form links or unmanaged third-party services.
 
 Key capabilities:
 
-- Configurable internal forms and structured data capture
-- Reusable workflow and approval patterns
-- Role-aware process handling
-- Attachment and supporting-document handling
-- Status tracking and operational traceability
-- Integration with internal services and downstream processes
-- Foundation for progressively digitizing additional business workflows
+- Dynamic form creation with configurable questions and fields
+- Support for internal forms, surveys, questionnaires, and quizzes
+- Multiple question types and structured response collection
+- Quiz scoring and answer evaluation
+- Centralized response storage and management
+- Authentication and role-based authorization
+- Controlled internal-only access to forms and responses
+- Reusable form templates for departments and business use cases
+- Reporting and structured data export
+- Integration with internal systems and APIs
+- Optional workflow and approval integration when required
 
 **Architecture concept**
 
-`User → Dynamic Form → Validation → Workflow / Approval → Structured Data → Integration / Reporting`
+`Authenticated User → Authorized Form Access → Form Builder / Published Form → Validation / Scoring → PostgreSQL → Reporting / Internal Integration`
 
-The value of the platform is reuse: new internal processes can be digitized on a common foundation instead of repeatedly building isolated forms, approval logic, and data handling from scratch.
+**Security & governance concept**
 
-**Technologies:** Python, FastAPI, PostgreSQL, REST APIs, workflow automation, RBAC
+`Authentication → Authorization → Internal Data Boundary → Controlled Access → Audit / Traceability`
+
+The value of the platform is not only form creation, but organizational control. Instead of placing business responses in externally shared form services, the organization retains ownership of the data, determines who can access each form and its responses, and can integrate the information directly with internal applications and reporting platforms.
+
+**Technologies:** Python, FastAPI, PostgreSQL, REST APIs, RBAC, dynamic form rendering
 
 ---
 
