@@ -36,6 +36,22 @@ AWS Training & Certification · Completed September 2026
 
 Current AWS development areas include global infrastructure, compute, VPC networking, storage, databases, IAM, security, migration, governance, billing, pricing, cost management, and Well-Architected concepts.
 
+### 🌐 Network & Security
+
+**WatchGuard Certified System Professional — Fireware XTM v11.7 Basics**  
+WatchGuard · Certification Exam Passed · September 2013
+
+**CCNA Routing and Switching v.3 — CCNA 200-125 Exam Preparation**  
+ITcert · Course Completion · August 2019
+
+**Cisco Certified Network Associate (CCNA) Knowledge**  
+Jodoi · Course Completion · November–December 2023
+
+**Network Security by Jodoi and CompTIA Security+ Exam**  
+Udemy · 30-hour Course Completion · March 2023
+
+These credentials document long-term development in routing, switching, firewall administration, and network security. Course-completion items are presented as training evidence and are not claimed as Cisco CCNA or CompTIA Security+ professional certifications.
+
 ### 🔐 Microsoft, Identity & Security
 
 Microsoft Learn achievements include:
