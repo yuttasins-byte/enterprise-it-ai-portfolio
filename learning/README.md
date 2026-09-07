@@ -19,6 +19,7 @@ For convenient portfolio review, selected training and certificate evidence is a
 - **[AWS Training & Certification — September 2026](AWS%20Training%20and%20Certification%20%20September%202026.pdf)** — AWS learning evidence and training record.
 - **[Claude 101 — Course Completion Badge](../Claude_101_Course_Completion_Yuttasin_Srisangchan.pdf)** — Claude Academy · Completed September 2026.
 - **[ChatGPT Productivity Hacks: 10x Your Workflow with AI Assistance](../ChatGPT_Productivity_Hacks_Certificate_Yuttasin_Srisangchan.png)** — Aj.NesT & Conicle · Certificate of Achievement.
+- **[Network Security / CompTIA Security+ Exam Preparation](../Udemy_Network_Security_CompTIA_SecurityPlus_Course_Completion_Yuttasin_Srisangchan.pdf)** — Udemy · 30-hour Course Completion · March 2023.
 
 These documents are supporting evidence for the learning areas summarized below; they are not presented as substitutes for professional certification exams unless explicitly stated.
 
@@ -47,7 +48,7 @@ ITcert · Course Completion · August 2019
 **Cisco Certified Network Associate (CCNA) Knowledge**  
 Jodoi · Course Completion · November–December 2023
 
-**Network Security by Jodoi and CompTIA Security+ Exam**  
+**[Network Security by Jodoi and CompTIA Security+ Exam](../Udemy_Network_Security_CompTIA_SecurityPlus_Course_Completion_Yuttasin_Srisangchan.pdf)**  
 Udemy · 30-hour Course Completion · March 2023
 
 These credentials document long-term development in routing, switching, firewall administration, and network security. Course-completion items are presented as training evidence and are not claimed as Cisco CCNA or CompTIA Security+ professional certifications.
