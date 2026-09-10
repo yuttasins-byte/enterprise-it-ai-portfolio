@@ -201,6 +201,8 @@ Current credential tracks:
 - **AI & Digital Transformation** — AI-era leadership, prompt engineering, and practical internal AI development
 - **Leadership & Management** — supervisory skills, performance management, mentoring, communication, analytical thinking, planning, and project delivery
 
+**Completed pathway:** [Apply AI at Work — OpenAI Academy](learning/certificates/OpenAI_Academy_Apply_AI_at_Work_Yuttasin_Srisangchan.pdf) · Issued September 10, 2026 · Expires March 10, 2027.
+
 ➡️ **[View Professional Learning & Credentials](learning/README.md)**
 
 ---
