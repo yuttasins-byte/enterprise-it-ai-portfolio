@@ -14,6 +14,26 @@ I focus on turning business and operational requirements into maintainable techn
 
 ---
 
+# 🏗️ Enterprise IT & AI Ecosystem
+
+The portfolio represents an interconnected enterprise platform: centralized identity protects internal applications; reusable gateways connect notifications and document services; Zabbix and Grafana turn operations into observable services; and RAG, MCP, structured data, and LLM capabilities provide controlled paths from enterprise knowledge to AI-assisted work.
+
+[![Enterprise IT & AI Ecosystem architecture](docs/architecture/enterprise-it-ai-ecosystem.svg)](docs/architecture/README.md)
+
+**How to read the architecture:** solid blue connections are implemented or integrated based on the current case studies and project context. The dashed amber connection is the next integration step: connecting the MCP Data Platform directly to the LLM/AI experience. Login integration with the MCP Data Platform has already been proven; the LLM connection is in progress/planned.
+
+This architecture demonstrates:
+
+- **Secure access** — Identity Gateway patterns using OIDC, OAuth 2.0, PKCE, RBAC, RS256, and JWKS
+- **Enterprise integration** — Internal Web Services connected to SharePoint file upload, notification delivery, and reusable internal APIs
+- **Observable operations** — Zabbix data supporting a 3D map/digital-twin view and Grafana dashboards embedded in internal services
+- **Grounded AI** — LLM/chatbot capabilities with separate RAG knowledge and MCP/structured-data paths
+- **Governed evolution** — explicit boundaries between demonstrated integrations and the next MCP Data Platform-to-LLM connection
+
+➡️ **[Explore the architecture, relationship status, and supporting case studies](docs/architecture/README.md)**
+
+---
+
 ## 🧭 Core Competencies
 
 - Enterprise IT Infrastructure & Operations
