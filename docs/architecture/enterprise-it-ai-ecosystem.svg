@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
   <title id="title">Enterprise IT and AI Ecosystem</title>
-  <desc id="desc">Architecture diagram connecting identity, internal web services, observability, SharePoint, notifications, structured data, MCP, RAG, and AI. Solid lines are implemented or proven; dashed lines are in progress or planned.</desc>
+  <desc id="desc">Architecture diagram connecting identity, internal web services, observability, SharePoint, notifications, structured data, MCP, RAG, and AI. Solid lines show implemented or demonstrated integrations. The dashed line shows planned AI email alerts.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#071525"/>
@@ -75,14 +75,14 @@
   <rect x="535" y="415" width="340" height="145" class="node-data"/>
   <text x="705" y="458" text-anchor="middle" class="box-title">MCP Data Platform</text>
   <text x="705" y="488" text-anchor="middle" class="box-sub">Governed structured-data access</text>
-  <text x="705" y="517" text-anchor="middle" class="box-sub">Login integration proven</text>
+  <text x="705" y="517" text-anchor="middle" class="box-sub">Approved resources for Sally</text>
   <rect x="730" y="530" width="124" height="22" rx="11" fill="#8ff3d4"/>
   <text x="792" y="546" text-anchor="middle" class="badge">INTEGRATED</text>
 
   <rect x="965" y="415" width="350" height="145" class="node-ai"/>
-  <text x="1140" y="458" text-anchor="middle" class="box-title">LLM / AI Assistant</text>
-  <text x="1140" y="488" text-anchor="middle" class="box-sub">Conversation • Domain Routing</text>
-  <text x="1140" y="517" text-anchor="middle" class="box-sub">Grounded responses</text>
+  <text x="1140" y="458" text-anchor="middle" class="box-title">Sally Internal AI</text>
+  <text x="1140" y="488" text-anchor="middle" class="box-sub">Self-hosted models on Ollama</text>
+  <text x="1140" y="517" text-anchor="middle" class="box-sub">Answers from approved sources</text>
   <rect x="1170" y="530" width="124" height="22" rx="11" fill="#8ff3d4"/>
   <text x="1232" y="546" text-anchor="middle" class="badge">IMPLEMENTED</text>
 
@@ -131,7 +131,8 @@
   <path d="M1060 680 V600 H705 V570" class="solid"/>
   <path d="M1345 680 V600 H1140 V570" class="solid"/>
   <path d="M1185 752 H1210" class="solid"/>
-  <path d="M875 470 H955" class="future"/>
+  <path d="M875 470 H955" class="solid"/>
+  <path d="M1325 470 H1350" class="future"/>
 
   <!-- legend / value -->
   <rect x="80" y="870" width="1440" height="120" rx="18" fill="#0b2034" stroke="#31506a"/>
@@ -139,6 +140,6 @@
   <line x1="112" y1="943" x2="205" y2="943" class="solid"/>
   <text x="225" y="949" class="small">Implemented / integrated and supported by current portfolio context</text>
   <line x1="805" y1="943" x2="898" y2="943" class="future"/>
-  <text x="918" y="949" class="small">In progress / next integration: MCP Data Platform → LLM</text>
+  <text x="918" y="949" class="small">Planned: AI-triggered email alerts</text>
   <text x="1515" y="1018" text-anchor="end" class="small">Sanitized portfolio view — no production endpoints, credentials, or confidential data</text>
 </svg>
