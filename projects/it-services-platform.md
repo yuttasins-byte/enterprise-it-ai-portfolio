@@ -17,6 +17,8 @@ The platform has evolved incrementally based on real business requirements and p
 - Employee directory and internal APIs
 - Software inventory
 - Project management and project analytics
+- Fleet management
+- Internal forms, surveys, and scored quizzes
 - Administrative dashboards
 - Role-based access control
 - Internal system integration
@@ -146,7 +148,7 @@ Potential value includes:
 - improved auditability
 - reusable workflow components
 - consistent employee experience
-- operational data for analytics and future AI-assisted access
+- operational data for analytics and approved AI-assisted access
 
 ## Security & Confidentiality Note
 

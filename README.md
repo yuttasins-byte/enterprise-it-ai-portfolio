@@ -1,259 +1,40 @@
-# Enterprise IT, Infrastructure, Security & Internal AI Portfolio
+# Yuttasin Srisangchan | Enterprise IT, Security & Digital Transformation
 
-Building secure, resilient, practical technology platforms that connect infrastructure, security, automation, data, and internal AI.
+IT leader with 17+ years of experience across healthcare, consumer lending, fresh food wholesale and retail, pharmaceutical and medical supplies distribution, and exhibition and convention operations. I lead infrastructure and security projects and build internal services that turn manual work into trackable workflows.
 
-## 👋 About Me
+## Career highlights
 
-IT Infrastructure & Security professional with hands-on experience across enterprise infrastructure, cybersecurity, Microsoft 365, hybrid environments, virtualization, storage, networking, backup and disaster recovery, identity, automation, application integration, and internal AI platforms.
+| Achievement | Scope |
+| --- | --- |
+| **R2I 2026 winner** | The Best System & Process Innovation Award |
+| **6,000+ branch locations** | Managed enterprise infrastructure supporting a nationwide branch network |
+| **400+ mailboxes migrated** | Led an Exchange Hybrid migration to Microsoft 365 while retaining 300+ mailboxes on-premises |
+| **Hospital infrastructure** | Implemented network and security infrastructure at Rajavithi Hospital, with familiarity with basic HIS and RIS workflows |
+| **Team leadership** | Managed and mentored five direct reports across programming, systems analysis, SAP support, and infrastructure |
 
-My approach is simple:
+## Projects and status
 
-> **Build where it creates value. Integrate where it makes sense. Secure by design.**
+| Project | What it helps people do | Status |
+| --- | --- | --- |
+| [IT Services Portal](projects/it-services-platform.md) | Submit and track IT requests, approvals, procurement, and other employee services | In use and evolving |
+| [Meeting Room Booking & Analytics](projects/meeting-room-analytics.md) | Book rooms, manage approvals, and review utilization | In production use |
+| [Sally Internal AI](projects/internal-ai-platform.md) | Ask questions about approved policies, service procedures, and supported operational data | Governed knowledge answers verified in production. Development continues |
+| [Monitoring Portal](docs/architecture/README.md#monitoring-portal) | View Zabbix monitoring data and embedded Grafana dashboards in one web portal | Implemented |
+| [Identity & SSO](projects/identity-sso-platform.md) | Sign in to internal applications through a shared identity service | Implemented. MCP Data Platform sign-in demonstrated |
+| [Notification Gateway](projects/notification-gateway.md) | Send application email through an authenticated Microsoft Graph integration with delivery logging | Integrated. AI-triggered email alerts are planned |
+| [Forms & approvals](projects/it-services-platform.md#workflow-design) | Create internal forms, surveys and quizzes, and route requests through approvals | Implemented as internal platform capabilities |
+| [File services](docs/architecture/README.md#how-the-components-work-together) | Support controlled internal file transfer and SharePoint uploads | SharePoint upload integration demonstrated |
 
-I focus on turning business and operational requirements into maintainable technology solutions — from infrastructure and security foundations to internal digital platforms, workflow automation, observability, and AI-assisted operations.
+## How the systems connect
 
----
+[![Enterprise IT and AI ecosystem](docs/architecture/enterprise-it-ai-ecosystem.svg)](docs/architecture/README.md)
 
-# 🏗️ Enterprise IT & AI Ecosystem
+Sally runs self-hosted language models on **Ollama** to keep company data within internal infrastructure and reduce dependence on paid model APIs. It uses retrieval-augmented generation (RAG) for approved knowledge and Model Context Protocol (MCP) for authorized data access. Planned email alerts include long-outstanding tasks, upcoming software license expirations, and cybersecurity advisories relevant to company systems. [See the Sally case study](projects/internal-ai-platform.md).
 
-The portfolio represents an interconnected enterprise platform: centralized identity protects internal applications; reusable gateways connect notifications and document services; Zabbix and Grafana turn operations into observable services; and RAG, MCP, structured data, and LLM capabilities provide controlled paths from enterprise knowledge to AI-assisted work.
+## Infrastructure, security & delivery
 
-[![Enterprise IT & AI Ecosystem architecture](docs/architecture/enterprise-it-ai-ecosystem.svg)](docs/architecture/README.md)
+I lead projects from requirements and design through procurement, testing, deployment, and operational handover. My infrastructure work covers Cisco and multivendor networking, Nutanix and H3C hyperconverged infrastructure, VMware and Hyper-V, Microsoft 365, and secure identity. I also lead vulnerability remediation and patch management, backup and recovery testing, and business continuity and disaster recovery planning.
 
-**How to read the architecture:** solid blue connections are implemented or integrated based on the current case studies and project context. The dashed amber connection is the next integration step: connecting the MCP Data Platform directly to the LLM/AI experience. Login integration with the MCP Data Platform has already been proven; the LLM connection is in progress/planned.
+[Professional learning and credentials](learning/README.md)
 
-This architecture demonstrates:
-
-- **Secure access** — Identity Gateway patterns using OIDC, OAuth 2.0, PKCE, RBAC, RS256, and JWKS
-- **Enterprise integration** — Internal Web Services connected to SharePoint file upload, notification delivery, and reusable internal APIs
-- **Observable operations** — Zabbix data supporting a 3D map/digital-twin view and Grafana dashboards embedded in internal services
-- **Grounded AI** — LLM/chatbot capabilities with separate RAG knowledge and MCP/structured-data paths
-- **Governed evolution** — explicit boundaries between demonstrated integrations and the next MCP Data Platform-to-LLM connection
-
-➡️ **[Explore the architecture, relationship status, and supporting case studies](docs/architecture/README.md)**
-
----
-
-## 🧭 Core Competencies
-
-- Enterprise IT Infrastructure & Operations
-- Cybersecurity, Identity & Access Management
-- Microsoft 365, Exchange & Hybrid Environments
-- Virtualization, Storage, Backup & Disaster Recovery
-- Network & Security Architecture
-- Monitoring, Observability & Automation
-- API & Enterprise Application Integration
-- Internal AI, RAG & Model Context Protocol (MCP)
-- Internal Form Builder, Surveys, Quizzes & Secure Data Collection
-- IT Governance, Procurement Workflow & Project Delivery
-- Cloud Fundamentals, Hybrid Cloud & Cost-Aware Architecture
-
----
-
-# 🚀 Professional Projects & Architecture
-
-## 🤖 Internal AI Platform
-
-Internal AI assistant designed to connect organizational knowledge with approved structured internal systems while keeping identity, authorization, source ownership, and operational facts explicit.
-
-**Architecture**
-
-`Chat → Intent / Domain Routing → RAG / MCP → Internal APIs → Authoritative Systems`
-
-Key capabilities:
-
-- Retrieval-Augmented Generation (RAG)
-- Structured operational-data access
-- Model Context Protocol (MCP)
-- Multi-domain routing and clarification
-- Knowledge management
-- Person/entity resolution
-- Identity-aware access
-- Auditable server-to-server integrations
-- Deterministic formatting for operational facts
-
-**Technologies:** Python, FastAPI, PostgreSQL, Redis, Docker, RAG, MCP, REST APIs, OIDC
-
-➡️ **[Read the Internal AI Platform case study](projects/internal-ai-platform.md)**
-
----
-
-## 🧩 IT Services Internal Digital Platform
-
-Internal service platform that consolidates employee and IT operational workflows into a secure web application.
-
-Selected capabilities:
-
-- IT service requests and ticket workflows
-- Procurement and approval workflows
-- RFQ request processes
-- Employee directory and internal service APIs
-- Meeting room services
-- Software inventory
-- Project management
-- Role-based access control
-- Enterprise system integrations
-- Operational dashboards and reporting
-
-**Technologies:** Python, FastAPI, PostgreSQL, Docker, REST APIs, OIDC
-
-➡️ **[Read the IT Services Platform case study](projects/it-services-platform.md)**
-
----
-
-## 📝 Internal Form Builder — Forms, Surveys & Quizzes
-
-Organization-owned internal form platform designed as a secure alternative to external form services such as Google Forms for creating forms, surveys, questionnaires, quizzes, and structured data collection.
-
-The platform keeps organizational data inside the internal environment while enforcing authentication, authorization, and controlled access. Form data is not designed for public sharing outside the organization, helping reduce the risk of sensitive business information being exposed through external form links or unmanaged third-party services.
-
-Key capabilities:
-
-- Dynamic form creation with configurable questions and fields
-- Support for internal forms, surveys, questionnaires, and quizzes
-- Multiple question types and structured response collection
-- Quiz scoring and answer evaluation
-- Centralized response storage and management
-- Authentication and role-based authorization
-- Controlled internal-only access to forms and responses
-- Reusable form templates for departments and business use cases
-- Reporting and structured data export
-- Integration with internal systems and APIs
-- Optional workflow and approval integration when required
-
-**Architecture concept**
-
-`Authenticated User → Authorized Form Access → Form Builder / Published Form → Validation / Scoring → PostgreSQL → Reporting / Internal Integration`
-
-**Security & governance concept**
-
-`Authentication → Authorization → Internal Data Boundary → Controlled Access → Audit / Traceability`
-
-The value of the platform is not only form creation, but organizational control. Instead of placing business responses in externally shared form services, the organization retains ownership of the data, determines who can access each form and its responses, and can integrate the information directly with internal applications and reporting platforms.
-
-**Technologies:** Python, FastAPI, PostgreSQL, REST APIs, RBAC, dynamic form rendering
-
----
-
-## 📊 Meeting Room Booking & Operational Analytics
-
-A production-used internal booking workflow combined with operational analytics to turn day-to-day usage into measurable service insight.
-
-Highlights:
-
-- Room booking and approval workflow
-- Check-in/check-out and operational status tracking
-- Usage and utilization analytics
-- Approval-processing metrics
-- Department and room usage visibility
-- Dashboard integration for operational review
-
-**Technologies:** FastAPI, PostgreSQL, Grafana, REST APIs, Docker
-
-➡️ **[Read the Meeting Room & Analytics case study](projects/meeting-room-analytics.md)**
-
----
-
-## 🔐 Identity & SSO Platform
-
-Central identity layer for internal applications using modern authorization and token-validation patterns.
-
-Key design areas:
-
-- OAuth 2.0 Authorization Code Flow
-- PKCE
-- OpenID Connect
-- RS256 token signing
-- JWKS
-- Centralized authentication
-- Application client management
-- Auditability and least privilege
-
-**Technologies:** OIDC, OAuth 2.0, JWT, RS256, FastAPI, PostgreSQL
-
-➡️ **[Read the Identity & SSO case study](projects/identity-sso-platform.md)**
-
----
-
-## 📬 Notification Gateway Platform
-
-Central API-based notification service designed to modernize legacy application email delivery and reduce direct SMTP dependencies.
-
-Highlights:
-
-- Central API-based mail delivery
-- Microsoft Graph integration
-- Application/service authentication
-- Sender authorization
-- Delivery logging and traceability
-- Migration path from legacy SMTP
-
-**Technologies:** Microsoft Graph, FastAPI, PostgreSQL, Redis, Docker
-
-➡️ **[Read the Notification Gateway case study](projects/notification-gateway.md)**
-
----
-
-## ⚙️ Workflow, Monitoring & Automation
-
-Operational automation and monitoring across infrastructure and internal services.
-
-Examples include approval workflow automation, automated notifications, system-to-system integrations, monitoring and alerting, infrastructure telemetry and dashboards, low-code/event-driven automation, and IoT data workflows.
-
-**Technologies:** Zabbix, Grafana, n8n, Node-RED, REST APIs, Python, PostgreSQL
-
----
-
-## 🏢 Infrastructure & Security
-
-Enterprise infrastructure and security experience spanning VMware virtualization and vCenter, SAN storage, Windows Server and Active Directory, Microsoft Exchange and Microsoft 365, backup/restore and disaster recovery, VLANs/routing/segmentation/firewall policy, endpoint security, security monitoring, business continuity, and hybrid-cloud architecture evaluation.
-
----
-
-# 🎓 Professional Learning & Credentials
-
-Continuous learning supports the same architecture areas represented in this portfolio rather than existing as a separate badge-collection exercise.
-
-Current credential tracks:
-
-- **Cloud & Infrastructure** — AWS Cloud Practitioner learning and CLF-C02 official practice preparation
-- **Microsoft, Identity & Security** — Azure architecture, networking, identity/access/security, and Microsoft 365
-- **AI & Digital Transformation** — AI-era leadership, prompt engineering, and practical internal AI development
-- **Leadership & Management** — supervisory skills, performance management, mentoring, communication, analytical thinking, planning, and project delivery
-
-**Completed pathway:** [Apply AI at Work — OpenAI Academy](learning/certificates/OpenAI_Academy_Apply_AI_at_Work_Yuttasin_Srisangchan.pdf) · Issued September 10, 2026 · Expires March 10, 2027.
-
-➡️ **[View Professional Learning & Credentials](learning/README.md)**
-
----
-
-# 🧭 Engineering Principles
-
-### Secure by Design
-Security, identity, authorization, auditability, least privilege, and recovery are architectural requirements — not features added afterward.
-
-### Build Where It Creates Value
-Build internal capabilities where they provide meaningful operational or strategic value, while integrating established platforms where appropriate.
-
-### Right Workload, Right Platform, Right Cost
-Cloud, on-premises, SaaS, and hybrid architectures are selected based on workload requirements, risk, operations, and TCO — not technology fashion.
-
-### API First
-Prefer reusable service interfaces and clear ownership boundaries over point-to-point application or database coupling.
-
-### Observable & Maintainable
-Production systems should provide health checks, logging, monitoring, traceability, predictable deployment, and supportable recovery procedures.
-
-### Human-Centered Automation
-Automation and AI should reduce friction, improve decision quality, and support people rather than simply replace manual steps.
-
----
-
-# 🗺️ Portfolio Roadmap
-
-This repository will continue to evolve with sanitized architecture diagrams, technical case studies, screenshots, cloud labs, engineering decisions, and selected training evidence.
-
-Planned additions include hybrid cloud architecture labs, AWS/Azure architecture comparisons, security and identity reference architectures, monitoring and observability case studies, backup/DR and business continuity examples, and additional workflow/internal-platform case studies.
-
-> **Confidentiality note**  
-> All examples in this portfolio are intentionally sanitized. No confidential company information, credentials, internal addresses, production configuration, personal data, or proprietary source code are published.
+Portfolio examples are sanitized. Production endpoints, credentials, employee records, and proprietary source code are excluded.
