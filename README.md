@@ -1,40 +1,37 @@
-# Yuttasin Srisangchan | Enterprise IT, Security & Digital Transformation
+# Yuttasin Srisangchan — Enterprise IT Infrastructure, Cybersecurity & AI Systems Portfolio
 
-IT leader with 17+ years of experience across healthcare, consumer lending, fresh food wholesale and retail, pharmaceutical and medical supplies distribution, and exhibition and convention operations. I lead infrastructure and security projects and build internal services that turn manual work into trackable workflows.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/yuttasin-srisangjan-343767290/)
+[![Award](https://img.shields.io/badge/Award-R2I%202026%20Best%20Innovation-gold?style=flat)](#awards--recognition)
+[![Focus](https://img.shields.io/badge/Focus-IT%20Infrastructure%20%7C%20Cybersecurity%20%7C%20Self--Hosted%20AI-1E293B?style=flat)](#core-competencies)
 
-## Career highlights
+**IT Infrastructure & Cyber Security Leader** with **17+ years of enterprise experience** across healthcare, financial lending, retail, and large-scale exhibition venues. Proven track record in designing resilient multi-branch networks, hardening hybrid server & container environments, driving cost-effective open-source modernization, and architecting secure on-premises enterprise AI ecosystems.
 
-| Achievement | Scope |
-| --- | --- |
-| **R2I 2026 winner** | The Best System & Process Innovation Award |
-| **6,000+ branch locations** | Managed enterprise infrastructure supporting a nationwide branch network |
-| **400+ mailboxes migrated** | Led an Exchange Hybrid migration to Microsoft 365 while retaining 300+ mailboxes on-premises |
-| **Hospital infrastructure** | Implemented network and security infrastructure at Rajavithi Hospital, with familiarity with basic HIS and RIS workflows |
-| **Team leadership** | Managed and mentored five direct reports across programming, systems analysis, SAP support, and infrastructure |
+---
 
-## Projects and status
+## Executive Highlights & Business Impact
 
-| Project | What it helps people do | Status |
-| --- | --- | --- |
-| [IT Services Portal](projects/it-services-platform.md) | Submit and track IT requests, approvals, procurement, and other employee services | In use and evolving |
-| [Meeting Room Booking & Analytics](projects/meeting-room-analytics.md) | Book rooms, manage approvals, and review utilization | In production use |
-| [Sally Internal AI](projects/internal-ai-platform.md) | Ask questions about approved policies, service procedures, and supported operational data | Governed knowledge answers verified in production. Development continues |
-| [Monitoring Portal](docs/architecture/README.md#monitoring-portal) | View Zabbix monitoring data and embedded Grafana dashboards in one web portal | Implemented |
-| [Identity & SSO](projects/identity-sso-platform.md) | Sign in to internal applications through a shared identity service | Implemented. MCP Data Platform sign-in demonstrated |
-| [Notification Gateway](projects/notification-gateway.md) | Send application email through an authenticated Microsoft Graph integration with delivery logging | Integrated. AI-triggered email alerts are planned |
-| [Forms & approvals](projects/it-services-platform.md#workflow-design) | Create internal forms, surveys and quizzes, and route requests through approvals | Implemented as internal platform capabilities |
-| [File services](docs/architecture/README.md#how-the-components-work-together) | Support controlled internal file transfer and SharePoint uploads | SharePoint upload integration demonstrated |
+* **Enterprise Digital Transformation (R2I 2026 Winner):** Architected and delivered an all-in-one **Internal IT Services Web Portal** unifying asset/license lifecycle management, paperless approvals, project tracking, and live infrastructure monitoring—winning **The Best System & Process Innovation Award (R2I 2026)**.
+* **On-Premises Enterprise AI Architecture:** Designed a private, self-hosted **Enterprise Internal AI Chatbot** (`Ollama` + `RAG` + `MCP Gateway`) integrated with **Active Directory (OIDC)** and **Microsoft Graph**, enabling secure internal knowledge retrieval without exposing corporate data to public cloud LLMs.
+* **DevSecOps & Container Hardening:** Implemented automated **Trivy** container vulnerability scanning (pre- & post-production) and modernized legacy PHP applications onto hardened container base images, reducing critical CVEs from **28 to 0**.
+* **Strategic Cost Optimization:**
+  * Restructured enterprise telephony by migrating to an on-premises **3CX** architecture, reducing 3-year maintenance costs by **~70%** (~300K THB vs. 1M THB legacy MA).
+  * Consolidated endpoint security across **800+ endpoints**, lowering per-license cost by **~27%** while strengthening threat visibility.
+  * Streamlined network maintenance (MA) contracts by bringing backup and configuration management in-house.
+* **Hyper-Scale Branch Rollout:** Planned, designed, and deployed standardized enterprise network infrastructure supporting rapid expansion from **2,000 to 6,000 branches within 12 months**.
 
-## How the systems connect
+---
 
-[![Enterprise IT and AI ecosystem](docs/architecture/enterprise-it-ai-ecosystem.svg)](docs/architecture/README.md)
+## Featured Enterprise Architectures & Case Studies
 
-Sally runs self-hosted language models on **Ollama** to keep company data within internal infrastructure and reduce dependence on paid model APIs. It uses retrieval-augmented generation (RAG) for approved knowledge and Model Context Protocol (MCP) for authorized data access. Planned email alerts include long-outstanding tasks, upcoming software license expirations, and cybersecurity advisories relevant to company systems. [See the Sally case study](projects/internal-ai-platform.md).
+### 1. Self-Hosted Enterprise AI & MCP Ecosystem
+A privacy-first internal AI platform built to serve corporate users while enforcing strict identity governance and zero external data leakage.
 
-## Infrastructure, security & delivery
-
-I lead projects from requirements and design through procurement, testing, deployment, and operational handover. My infrastructure work covers Cisco and multivendor networking, Nutanix and H3C hyperconverged infrastructure, VMware and Hyper-V, Microsoft 365, and secure identity. I also lead vulnerability remediation and patch management, backup and recovery testing, and business continuity and disaster recovery planning.
-
-[Professional learning and credentials](learning/README.md)
-
-Portfolio examples are sanitized. Production endpoints, credentials, employee records, and proprietary source code are excluded.
+```mermaid
+flowchart LR
+    User([Enterprise Users]) -->|SSO / OIDC| WebUI[Internal AI Web Portal]
+    WebUI --> Auth[Active Directory OIDC]
+    WebUI --> Gateway[MCP Gateway & Orchestrator]
+    Gateway --> LLM[Self-Hosted Ollama LLM]
+    Gateway --> RAG[(Enterprise RAG Vector DB)]
+    Gateway --> Graph[Microsoft Graph Notifications]
+    Gateway --> ITSM[IT Services & Monitoring APIs]
