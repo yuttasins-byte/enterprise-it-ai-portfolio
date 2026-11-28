@@ -1,6 +1,6 @@
-# Sally Internal AI
+# Internal AI Assistant
 
-Sally helps employees find approved company information and ask questions about operational data they are authorized to access. The application runs self-hosted language models on Ollama, keeping company data within internal infrastructure and reducing dependence on paid external model APIs.
+The Internal AI Assistant helps employees find approved company information and ask questions about operational data they are authorized to access. The application runs self-hosted language models on Ollama, keeping company data within internal infrastructure and reducing dependence on paid external model APIs.
 
 ## What employees can do today
 
@@ -16,7 +16,7 @@ The two endpoint-support questions were verified in production with source attri
 
 ```mermaid
 flowchart TD
-    User["Employee asks a question"] --> Route["Sally checks identity and routes the request"]
+    User["Employee asks a question"] --> Route["the Internal AI Assistant checks identity and routes the request"]
     Route --> RAG["RAG retrieves approved knowledge"]
     Route --> MCP["MCP calls a governed data service"]
     RAG --> Reply["Answer with source attribution"]
@@ -25,7 +25,7 @@ flowchart TD
     Ollama --> Reply
 ```
 
-RAG retrieves relevant approved knowledge. MCP retrieves structured facts from the system that owns them. Supported structured responses use returned records for operational values and respect access boundaries. When the available evidence is insufficient or a reference is ambiguous, Sally can ask a follow-up or explain what it could verify.
+RAG retrieves relevant approved knowledge. MCP retrieves structured facts from the system that owns them. Supported structured responses use returned records for operational values and respect access boundaries. When the available evidence is insufficient or a reference is ambiguous, the Internal AI Assistant can ask a follow-up or explain what it could verify.
 
 ## Planned use of changing data
 
